@@ -1,4 +1,4 @@
-class HelloWorldController < ApplicationController
+class StaticController < ApplicationController
   get '/hello_world' do 
     erb '/hello_world'
   end
